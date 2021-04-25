@@ -43,7 +43,7 @@
 
   header {
     padding-bottom: 1rem;
-    border-bottom: 1px solid var(--gray-100);
+    border-bottom: 1px solid #44475a;
 
     h1 {
       margin-top: 2rem;
@@ -58,13 +58,14 @@
         margin-left: 1rem;
         padding-left: 1rem;
         position: relative;
+        color: var(--white);
 
         &::before {
           content: "";
           width: 4px;
           height: 4px;
           border-radius: 2px;
-          background: #ddd;
+          background: #44475a;
           position: absolute;
           left: 0;
           top: 50%;
@@ -77,10 +78,11 @@
   .description {
     margin-top: 2rem;
     line-height: 1.675rem;
-    color: var(--gray-800);
+    color: var(--white);
 
     p {
       margin: 1.5rem 0;
+      color: var(--white);
     }
   }
 }
